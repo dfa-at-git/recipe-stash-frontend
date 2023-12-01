@@ -1,0 +1,43 @@
+.sidebar-container {
+    width: 100px;
+    height: 90vh;
+    background-color: #222020;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    color: white;
+    padding: 20px;
+    position: fixed;
+}
+
+nav li {
+    margin-bottom: 50px;
+}
+
+nav i {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Arial', sans-serif;
+}
